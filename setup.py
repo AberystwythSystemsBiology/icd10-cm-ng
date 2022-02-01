@@ -11,13 +11,13 @@ from shutil import rmtree
 
 from setuptools import setup, Command
 
-NAME = 'icd10-cm'
-PACKAGE = 'icd10'
+NAME = 'icd10-cm-ng'
+PACKAGE = 'icd10_ng'
 DESCRIPTION = ('ICD-10 codes for diseases, signs and symptoms, abnormal findings, '
                'complaints, social circumstances, and external causes of injury or disease')
-URL = 'https://github.com/bryand1/icd10-cm'
-EMAIL = 'me@bryanandrade.com'
-AUTHOR = 'Bryan Andrade'
+URL = 'https://github.com/AberystwythSystemsBiology/icd10-cm-ng'
+EMAIL = 'keiron@fastmail.co.uk'
+AUTHOR = 'Keiron O\'Shea'
 REQUIRES_PYTHON = '>=3.6.0'
 
 here = os.path.abspath(os.path.dirname(__file__))

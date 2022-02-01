@@ -1,19 +1,18 @@
-# ICD-10 CM
+# ICD-10 CM-ng
 
 ![license MIT](https://s3-us-west-1.amazonaws.com/bryand1/images/badges/license-MIT-blue.svg)
 ![python 3.6 | 3.7](https://s3-us-west-1.amazonaws.com/bryand1/images/badges/python-3.6-3.7.svg)
 
-
 ICD-10 is the 10th revision of the International Statistical Classification of Diseases and Related Health Problems (ICD),
 a medical classification list by the World Health Organization (WHO). It contains codes for diseases, signs and symptoms,
-abnormal findings, complaints, social circumstances, and external causes of injury or diseases.
+abnormal findings, complaints, social circumstances, and external causes of injury or diseases. [Wikipedia: ICD-10](https://en.wikipedia.org/wiki/ICD-10)
 
-[Wikipedia: ICD-10](https://en.wikipedia.org/wiki/ICD-10)
 
+ICD-10 CM is a fork of the original project, adding bug fixes and many other changes under the hood.
 
 ## Getting Started
 ```bash
-pip install icd10-cm
+pip install git+https://github.com/AberystwythSystemsBiology/icd10-cm-ng
 ```
 
 
@@ -21,7 +20,7 @@ pip install icd10-cm
 
 ### Find an ICD-10 code
 ```python
-import icd10
+import icd10ng as icd10
 
 code = icd10.find("J20.0")
 print(code.description)         # Acute bronchitis due to Mycoplasma pneumoniae
